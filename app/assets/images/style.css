@@ -1,0 +1,227 @@
+/* defuseleague - dek, j0nn */
+*{
+	box-sizing: border-box;
+	text-align: center;
+	color: white;
+	font-size: 12px;
+		}
+		
+html {height: 100%; min-height: 100% !important;}
+body {
+    background-color: #123A56;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    /* padding: 50px; */
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 0% 10%;
+    background-attachment: fixed;
+    margin: 0px;
+    min-height: 100%;
+    width: 100%;
+    padding-top: 100px;
+}
+.container {
+    margin: 40px auto;
+    padding: 24px 6px 6px 6px;
+    width: 290px;
+    height: 100%;
+    background-color: #0A2335;
+    border-radius: 8px;
+    /* padding-bottom: 10px; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.button {
+    background-color: #1f5b86;
+    border: none;
+    color: white;
+    padding: 5px 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 8px;
+}
+h1 {
+    width: 70%;
+    color: #FFFFFF;
+    font-size: 14px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    text-align: center;
+    /* padding-top: 40px; */
+}
+h3 {
+    width: 70%;
+    color: #FFFFFF;
+    font-size: 18px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    text-align: center;
+    /* padding-top: 40px; */
+}
+		form{
+	/*padding: 15px;*/
+	text-align: center;
+	-moz-text-size-adjust: 14px;
+		}
+input {
+    padding: 12px 0;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 2px solid transparent;
+    text-align: center;
+    width: 90%;
+    font-size: 14px;
+    transition: border .2s, background-color .2s;
+    color: black;
+}
+		form .field{
+			background-color: #ECF0F1;
+		}
+		form .field:focus {
+			border: 2px solid #3498DB;
+		}
+form .btn {
+    background-color: #061621;
+    color: #fff;
+    line-height: 25px;
+    cursor: pointer;
+}
+		form .btn:hover,
+		form .btn:active {
+	background-color: #45506C;
+	border: 2px solid #45506C;
+		}
+		.pass-link{
+	text-align: center;
+	color: white;
+		}
+		.pass-link a:link,
+		.pass-link a:visited{
+	font-size: 12px;
+	color: #FFFFFF;
+		}
+body,td,th {
+	font-family: Arial, sans-serif;
+}
+.tab-group {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    width: 215px;
+    text-align: center;
+    padding-bottom: 22px;
+}
+.tab-group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.tab-group li a {
+    display: block;
+    text-decoration: none;
+    padding: 6px;
+    background: rgba(49, 100, 143, 0.5);
+    color: #a0b3b0;
+    font-size: 14px;
+    float: left;
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s ease;
+}
+.tab-group li a:hover {
+    background: #113a56;
+    color: #ffffff;
+}
+.tab-group .active a {
+    background: #1f5c86;
+    color: #ffffff;
+}
+
+.tab-content > div:last-child {
+  display: none;
+}
+
+div#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #1f3856;
+}
+
+div#menu li {
+  float: left;
+}
+
+div#menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+div#menu li a:hover {
+	background-color: #111F30;
+}
+
+div#menu {
+    overflow: hidden;
+    background-color: #1f3856;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    text-transform: uppercase;
+    padding-right: 10%;
+}
+
+#float-right {
+  float: right;
+}
+
+#float-left {
+    float: left;
+    padding: 15px;
+}
+
+.content {
+    margin: 10px auto;
+    padding: 0px 16px 16px 16px;
+    height: 100%;
+    text-align: center;
+    /* padding-bottom: 10px; */
+}
+
+/* Create three unequal columns that floats next to each other */
+.leftmenu {
+    margin: 40px auto;
+    padding: 24px 6px 6px 6px;
+    width: 290px;
+    height: 100%;
+    background-color: #0A2335;
+    border-radius: 8px;
+    /* padding-bottom: 10px; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: inline-block;
+}
+
+.centerdiv {
+  width: 450px;
+  vertical-align: top; /* here */
+  display:inline-block;
+  padding-top: 80px;
+}
+
+.middle {
+  width: 50%;
+  display:inline-block;
+}
+
+/* Clear floats after the columns */
+.content:after {
+  content: "";
+  display: table;
+  clear: both;
